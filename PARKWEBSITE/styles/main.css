@@ -80,12 +80,12 @@ table th{
   text-align: start;
 }
 
-table thead, table tbody{
-  border-bottom: 1px solid #303030;
-}
-
 table th.slim{
   width: 100px;
+}
+
+table tr:nth-child(1), table tr:nth-child(4){
+  border-bottom: 1px solid black;
 }
 
 table tfoot{
@@ -150,12 +150,16 @@ button{
   color: #000000;
   font-weight: bold;
 }
-
+button:hover{
+  cursor: pointer;
+}
 .payment-option{
   height: 64px;
 }
 
 .sidy-by-side{
+  display: flex;
+  justify-content: space-around;
 }
 
 .description{
@@ -178,7 +182,6 @@ footer{
 .hidden-on-sm{
   display: block;
 }
-
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -214,11 +217,11 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf'),
+        url('../fonts/heartbeat.woff') format('woff');
 }
 
 /*
