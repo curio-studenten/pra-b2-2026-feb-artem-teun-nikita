@@ -22,7 +22,9 @@ body, html{
   width: 100%;
   margin: 0 auto;
 }
-
+.row{
+  display: flex;
+}
 header{
   background: url('../images/park01.jpg');
   background-size: cover;
