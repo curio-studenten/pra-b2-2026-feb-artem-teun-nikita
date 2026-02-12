@@ -203,7 +203,17 @@ footer{
   ##Screen = B/w 320px to 479px
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
-
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
+  
+}
 
 
 @media (max-width: 480px) {
