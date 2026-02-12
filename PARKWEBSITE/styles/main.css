@@ -99,6 +99,7 @@ article{
 }
 article:last-of-type{
   margin-right: 0;
+  border-color: white;
 }
 
 article h2{
@@ -108,7 +109,20 @@ article h2{
   background-position: center;
   background-size: cover;
   text-align: center;
+  border-radius: 10px;
+  border: #ffffff;
+
+  text-shadow:
+    -2px -2px 0 #ffffff,
+    2px -2px 0 #ffffff,
+    -2px 2px 0 #ffffff,
+    2px 2px 0 #ffffff,
+    -1px 0 0 #ffffff,
+    1px 0 0 #ffffff,
+    0 -1px 0 #ffffff,
+    0 1px 0 #ffffff;
 }
+
 article h2.fun-for-family{
   background-image: url('../images/family-fun-george-arthur-pflueger.jpg');
 }
@@ -184,6 +198,8 @@ footer{
   ##Screen = B/w 320px to 479px
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
+
+
 
 @media (max-width: 480px) {
 
